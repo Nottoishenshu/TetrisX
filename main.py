@@ -5,7 +5,9 @@ import os
 import sys
 import pygame as pg
 import pygame.freetype as ft
+from flask import Flask
 
+app = Flask(__name__)  # Ensure this is named 'app'
 from settings import *
 from tetris import Tetris, Text
 
